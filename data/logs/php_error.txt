@@ -1,0 +1,6 @@
+[16-May-2016 17:03:56 Asia/Shanghai] PHP Fatal error:  Class 'MongoDB\Driver\Manager' not found in D:\wamp\www\jlog\libs\nt_core\classes\MyMongo.class.php on line 14
+[16-May-2016 17:03:56 Asia/Shanghai] PHP Stack trace:
+[16-May-2016 17:03:56 Asia/Shanghai] PHP   1. {main}() D:\wamp\www\jlog\log.php:0
+[16-May-2016 17:03:56 Asia/Shanghai] PHP   2. JLog::findlog() D:\wamp\www\jlog\log.php:32
+[16-May-2016 17:03:56 Asia/Shanghai] PHP   3. MyMongo::read() D:\wamp\www\jlog\model\common\JLog.class.php:42
+[16-May-2016 17:03:56 Asia/Shanghai] PHP   4. MyMongo::connect() D:\wamp\www\jlog\libs\nt_core\classes\MyMongo.class.php:47
